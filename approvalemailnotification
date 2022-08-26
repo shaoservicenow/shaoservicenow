@@ -1,0 +1,102 @@
+<div></div>
+<table style="width: 48px; border-collapse: collapse; margin-left: auto; margin-right: auto;">
+<tbody>
+<tr>
+<td style="width: 40px;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><img style="align: baseline;" src="https://i.ibb.co/MsWyz2w/approved.png" alt="info icon" width="80" height="80" align="baseline" /></span></td>
+<td style="width: 0px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;"><span style="color: #425051; font-size: 32px; font-family: arial, helvetica, sans-serif;"><strong>Hi ${approver.first_name}, an approval awaits your action: </strong></span></p>
+<p style="text-align: center;"><span style="color: #425051; font-size: 32px; font-family: arial, helvetica, sans-serif;"><strong>${sysapproval}</strong></span></p>
+<div>
+<div style="text-align: center;">
+<table style="height: 39px; width: 80%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: right;"><strong><span style="font-family: arial, helvetica, sans-serif;">Short Description:&nbsp;&nbsp;</span></strong></td>
+<td style="width: 50%; height: 13px; text-align: left;"><span style="font-family: arial, helvetica, sans-serif;">${sysapproval.short_description}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: right;"><strong><span style="font-family: arial, helvetica, sans-serif;">Priority:&nbsp;&nbsp;</span></strong></td>
+<td style="width: 50%; height: 13px; text-align: left;"><span style="font-family: arial, helvetica, sans-serif;">${sysapproval.priority}</span></td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 50%; height: 13px; text-align: right;"><span style="font-family: arial, helvetica, sans-serif;"><strong>Category:&nbsp;</strong>&nbsp;</span></td>
+<td style="width: 50%; height: 13px; text-align: left;"><span style="font-family: arial, helvetica, sans-serif;">${sysapproval.category}</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style="text-align: center;">
+<div>&nbsp;</div>
+</div>
+<div style="text-align: center;">
+<div>
+<div><hr /></div>
+</div>
+<div>&nbsp;</div>
+</div>
+<div style="text-align: center;">
+<div><span style="font-family: arial, helvetica, sans-serif;">${mail_script:change_request_summary}</span></div>
+</div>
+<div style="text-align: center;">
+<div>&nbsp;</div>
+</div>
+<div style="text-align: center;">
+<div><strong><span style="font-family: arial, helvetica, sans-serif;">Comments:</span></strong></div>
+</div>
+<div style="text-align: center;">
+<div><span style="font-family: arial, helvetica, sans-serif;">${sysapproval.description}</span></div>
+</div>
+<div style="text-align: center;">
+<div>&nbsp;</div>
+<div>
+<div><hr /></div>
+</div>
+<div>
+<p>&nbsp;</p>
+<table style="height: 86px; width: 60%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="0">
+<tbody>
+<tr style="height: 86px;">
+<td style="width: 50%; height: 86px;">
+<p><span style="font-family: arial, helvetica, sans-serif;"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.ibb.co/PgFkC2p/check.png" alt="approve" width="40" height="40" align="center" /> </span></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;">${mailto:mailto.approval}</span></p>
+</td>
+<td style="width: 50%; height: 86px;">
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;"><img src="https://i.ibb.co/VBnCMJ7/rejected.png" alt="approve" width="40" height="40" align="center" /> </span></p>
+<p style="text-align: center;"><span style="font-family: arial, helvetica, sans-serif;">${mailto:mailto.rejection}</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+</div>
+</div>
+<div style="text-align: center;">
+<div>
+<div><hr /></div>
+</div>
+<div>&nbsp;</div>
+</div>
+<div style="text-align: center;">
+<div><strong><span style="font-family: arial, helvetica, sans-serif;">Approval Activity:</span></strong></div>
+</div>
+<div style="text-align: center;">
+<div><span style="font-family: arial, helvetica, sans-serif;">${mail_script:approval_activity}</span></div>
+</div>
+<div style="text-align: center;">
+<div>&nbsp;</div>
+<div>
+<div><hr /></div>
+</div>
+<div>&nbsp;</div>
+</div>
+<div style="text-align: center;">
+<div><span style="font-family: arial, helvetica, sans-serif;"><strong>Click here to view Approval Request:</strong> ${URI+&amp;sysparm_record_target=sysapproval_approver}</span></div>
+</div>
+<div style="text-align: center;">
+<div><span style="font-family: arial, helvetica, sans-serif;"><strong>Click here to view ${sysapproval.sys_class_name}:</strong> ${sysapproval.URI}</span></div>
+</div>
+<div style="text-align: center;">&nbsp;</div>
