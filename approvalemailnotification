@@ -1,14 +1,28 @@
 <div></div>
+<div>
+<table style="height: 13px; width: 100%; border-collapse: collapse;" border="0">
+<tbody>
+<tr style="background-color: #c9d0d2;">
+<td style="width: 15%; background-color: #c9d0d2;">&nbsp;</td>
+<td style="width: 70%;">
+<p>&nbsp;</p>
+</td>
+<td style="width: 15%; background-color: #c9d0d2;">&nbsp;</td>
+</tr>
+<tr style="height: 13px;">
+<td style="width: 15%; height: 13px; background-color: #c9d0d2;">&nbsp;</td>
+<td style="width: 70%; height: 13px;">
+<p>&nbsp;</p>
 <table style="width: 48px; border-collapse: collapse; margin-left: auto; margin-right: auto;">
 <tbody>
 <tr>
-<td style="width: 40px;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><img style="align: baseline;" src="https://i.ibb.co/MsWyz2w/approved.png" alt="info icon" width="80" height="80" align="baseline" /></span></td>
+<td style="width: 40px;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><img src="https://i.ibb.co/MsWyz2w/approved.png" alt="info icon" width="80" height="80" align="baseline" /></span></td>
 <td style="width: 0px;">&nbsp;</td>
 </tr>
 </tbody>
 </table>
-<p style="text-align: center;"><span style="color: #425051; font-size: 32px; font-family: arial, helvetica, sans-serif;"><strong>Hi ${approver.first_name}, an approval awaits your action: </strong></span></p>
-<p style="text-align: center;"><span style="color: #425051; font-size: 32px; font-family: arial, helvetica, sans-serif;"><strong>${sysapproval}</strong></span></p>
+<p style="text-align: center;"><span style="color: #425051; font-size: 32px; font-family: arial, helvetica, sans-serif;"><strong>Hi ${approver.first_name}, an approval awaits your action:</strong></span></p>
+<p style="text-align: center;"><span style="color: #339966; font-size: 32px; font-family: arial, helvetica, sans-serif;"><strong>${sysapproval}</strong></span></p>
 <div>
 <div style="text-align: center;">
 <table style="height: 39px; width: 80%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="0">
@@ -36,10 +50,6 @@
 <div>
 <div><hr /></div>
 </div>
-<div>&nbsp;</div>
-</div>
-<div style="text-align: center;">
-<div><span style="font-family: arial, helvetica, sans-serif;">${mail_script:change_request_summary}</span></div>
 </div>
 <div style="text-align: center;">
 <div>&nbsp;</div>
@@ -57,7 +67,7 @@
 </div>
 <div>
 <p>&nbsp;</p>
-<table style="height: 86px; width: 60%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="0">
+<table style="height: 86px; width: 80%; border-collapse: collapse; margin-left: auto; margin-right: auto;" border="0">
 <tbody>
 <tr style="height: 86px;">
 <td style="width: 50%; height: 86px;">
@@ -100,3 +110,16 @@
 <div><span style="font-family: arial, helvetica, sans-serif;"><strong>Click here to view ${sysapproval.sys_class_name}:</strong> ${sysapproval.URI}</span></div>
 </div>
 <div style="text-align: center;">&nbsp;</div>
+</td>
+<td style="width: 15%; height: 13px; background-color: #c9d0d2;">&nbsp;</td>
+</tr>
+<tr style="background-color: #c9d0d2;">
+<td style="width: 15%; background-color: #c9d0d2;">&nbsp;</td>
+<td style="width: 70%;">
+<p>&nbsp;</p>
+</td>
+<td style="width: 15%; background-color: #c9d0d2;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
